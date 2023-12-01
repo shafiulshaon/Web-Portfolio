@@ -134,6 +134,9 @@ figure {
     color: #000;
   font-family: 'Raleway', sans-serif;
 }
+#colorlib-aside .text-center{
+  padding: 0 10px;
+}
   #colorlib-aside .position {
     display: block;
     margin-bottom: 2em;
