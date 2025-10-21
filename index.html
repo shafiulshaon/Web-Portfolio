@@ -36,7 +36,7 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <a class="header-cta" href="Resume%20Shafiul%20Alam_en.pdf" target="_blank" rel="noopener">Download CV</a>
+            <a class="header-cta" href="Resume_Shafiul_Alam_en.pdf" target="_blank" rel="noopener">Download CV</a>
         </div>
     </header>
 
@@ -349,8 +349,12 @@
     </footer>
 
     <script>
-        const yearSpan = document.getElementById('year');
-        yearSpan.textContent = new Date().getFullYear();
+        document.addEventListener('DOMContentLoaded', function() {
+            const yearSpan = document.getElementById('year');
+            if (yearSpan) {
+                yearSpan.textContent = new Date().getFullYear();
+            }
+        });
     </script>
 </body>
 
